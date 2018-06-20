@@ -28,7 +28,7 @@ RUN apk -U upgrade && \
     echo "zend_extension = "$(find /usr -name bfr.so) >> /etc/php7/php.ini && \
 
 # Install glastopf from git
-    git clone https://github.com/mushorg/glastopf.git /opt/glastopf && \
+    git clone https://github.com/datnt2308/glastopf.git /opt/glastopf && \
     cd /opt/glastopf && \
     python setup.py install && \
     cd / && \
