@@ -1,5 +1,5 @@
 FROM alpine 
-MAINTAINER MO 
+MAINTAINER ERROR <datnt2308@gmail.com>
 
 # Include dist
 ADD dist/ /root/dist/
