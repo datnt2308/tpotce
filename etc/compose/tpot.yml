@@ -164,7 +164,7 @@ services:
      - glastopf_local
     ports:
      - "80:80"
-    image: "dtagdevsec/glastopf:1710"
+    image: "datnt2308/glastopf:latest"
     volumes:
      - /data/glastopf/db:/opt/glastopf/db
      - /data/glastopf/log:/opt/glastopf/log
